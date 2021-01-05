@@ -2,8 +2,10 @@ import './Home.css'
 import './raster/raster2.css'
 
 const Home = () => {
-    return(
-        <h1 className="mainHeading">W   X</h1>
+    return (
+        <div>
+            <h1 className="mainHeading">W   X</h1>
+        </div >
     )
 }
 
