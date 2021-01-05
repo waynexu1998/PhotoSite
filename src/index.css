@@ -1,13 +1,43 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'Clarika Pro Grotesque';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Clarika Pro Grotesque'), 
+    url('./fonts/ClarikaProGrot-Bd.ttf') format('truetype'),
+    url('./fonts/ClarikaProGrot-BdIt.ttf'),
+    url('./fonts/ClarikaProGrot-Md.ttf'),
+    url('./fonts/ClarikaProGrot-MdIt.ttf'),
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Clarika Pro Grotesque';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Clarika Pro Grotesque'), 
+    url('./fonts/ClarikaProGrot-BdIt.ttf'),
 }
+
+@font-face {
+  font-family: 'Clarika Pro Grotesque';
+  font-style: normal;
+  font-weight: medium;
+  src: local('Clarika Pro Grotesque'), 
+    url('./fonts/ClarikaProGrot-Md.ttf'),
+}
+
+@font-face {
+  font-family: 'Clarika Pro Grotesque';
+  font-style: italic;
+  font-weight: medium;
+  src: local('Clarika Pro Grotesque'), 
+    url('./fonts/ClarikaProGrot-MdIt.ttf'),
+}
+
+body {
+  margin: 0;
+  font-family: 'Clarika Pro Grotesque';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: medium;
+}
+
