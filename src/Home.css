@@ -1,3 +1,29 @@
-.mainHeading {
+.main_Div {
+    margin: 50px 0 50px 0;
+    border-top: solid 1px #4c566154;
+}
+
+.left_Div {
+    width: 42%;
+}
+
+.title_Div {
+    margin: 0 50px 0 50px;
+    position: relative;
+    display: flex;
+}
+
+.title_X {
+    margin: 0 25px 0 25px;
+}
+
+.rect {
+    background-color: #4c5661;
+    width: 175px;
+}
+
+.main_Heading {
     font-weight: bold;
+    font-size: 35px;
+    margin: 0;
 }
