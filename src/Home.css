@@ -1,16 +1,43 @@
 .main_Div {
-    margin: 50px 0 50px 0;
-    border-top: solid 1px #4c566154;
+    display: flex;
 }
 
 .left_Div {
-    width: 42%;
+    width: 40vw;
+    margin-top: 50px;
+}
+
+.right_Div {
+    left: 40vw;
+    width: 60vw;
+    margin-top: 50px;
 }
 
 .title_Div {
-    margin: 0 50px 0 50px;
-    position: relative;
     display: flex;
+    height: 300px;
+    margin-left: 50px;
+
+}
+
+.menu_Div {
+    height: 300px;
+    margin-left: 50px;
+}
+
+.link_Div {
+    height: 300px;
+    margin-left: 50px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.menu {
+    width: calc(20vw - 50px);
+}
+
+.projects {
+    width: calc(20vw);
 }
 
 .title_X {
@@ -20,10 +47,21 @@
 .rect {
     background-color: #4c5661;
     width: 175px;
+    height: 44px;
 }
 
 .main_Heading {
     font-weight: bold;
-    font-size: 35px;
     margin: 0;
+    height: 44px;
 }
+
+.picture {
+    width: 40vw;
+}
+
+.i_1 {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
