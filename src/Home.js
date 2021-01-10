@@ -1,8 +1,7 @@
 import './Home.css'
 import './grid.css'
 import LocomotiveScroll from 'locomotive-scroll';
-import React, { useEffect } from 'react';
-import { render } from '@testing-library/react';
+import React from 'react';
 
 class Home extends React.Component {
 
