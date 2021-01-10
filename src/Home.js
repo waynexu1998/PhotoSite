@@ -9,13 +9,18 @@ class Home extends React.Component {
         const scroll = new LocomotiveScroll({
             el: document.querySelector(".main_Div"),
             smooth: true,
-            repeat: true
+            reloadOnContextChange: true,
+            smartphone: {
+                smooth: false,
+            },
+            tablet: {
+                smooth: false,
+            }
         });
         setTimeout(() => {
             scroll.update();
         }, 300);
     }
-    
     
     render() {
         function onlick() {
